@@ -1,0 +1,12 @@
+# Arithmetic operations
+
+a = int(input())
+b = int(input())
+
+summa = a + b
+raznosty = a - b
+umnojenie = a * b
+
+print(a, '+', b, '=', summa)
+print(a, '-', b, '=', raznosty)
+print(a, '*', b, '=', umnojenie)
