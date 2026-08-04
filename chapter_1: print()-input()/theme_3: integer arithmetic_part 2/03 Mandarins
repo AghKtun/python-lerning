@@ -1,0 +1,10 @@
+# Mandarins
+
+childrens = int(input())
+mandarins = int(input())
+
+porovnu = mandarins // childrens
+ostatoc = mandarins % childrens
+
+print(porovnu)
+print(ostatoc)
