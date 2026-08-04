@@ -1,0 +1,22 @@
+# Sum of positive
+
+n_1 = int(input())
+n_2 = int(input())
+n_3 = int(input())
+
+if n_1 > 0:
+    z = n_1
+else:
+    z = 0
+
+if n_2 > 0:
+    x = n_2
+else:
+    x = 0
+    
+if n_3 > 0:
+    c = n_3
+else:
+    c = 0
+    
+print(z + x + c)
