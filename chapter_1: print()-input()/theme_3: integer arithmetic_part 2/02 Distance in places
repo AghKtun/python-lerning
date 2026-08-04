@@ -1,0 +1,7 @@
+# Distance in places
+
+santimetrs = int(input())
+
+metrs = santimetrs // 100
+
+print(metrs)
