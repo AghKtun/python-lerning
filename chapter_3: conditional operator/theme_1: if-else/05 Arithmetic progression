@@ -1,0 +1,13 @@
+# Arithmetic progression
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+first = b - a
+second = c - b
+
+if first == second:
+    print('YES')
+else:
+    print('NO')
