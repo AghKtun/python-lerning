@@ -1,0 +1,7 @@
+# Compartment number
+
+n = int(input())
+
+n_cupe = -(-n // 4)
+
+print(n_cupe)
