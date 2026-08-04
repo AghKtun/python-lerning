@@ -1,0 +1,12 @@
+# Age group
+
+age = int(input())
+
+if age <= 13:
+    print('детство')
+if 13 < age <= 24:
+    print('молодость')
+if 24 < age <= 59:
+    print('зрелость')
+if 59 < age:
+    print('старость')
