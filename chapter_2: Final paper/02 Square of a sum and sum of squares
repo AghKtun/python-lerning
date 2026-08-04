@@ -1,4 +1,4 @@
-#
+# Square of a sum and sum of squares
 
 a = int(input())
 b = int(input())
