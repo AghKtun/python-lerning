@@ -1,0 +1,10 @@
+#
+
+a = int(input())
+b = int(input())
+
+kvadrat_sum = (a + b) ** 2
+sum_kvadrata = a ** 2 + b ** 2
+
+print('Квадрат суммы', a, 'и', b, 'равен', kvadrat_sum)
+print ('Сумма квадратов', a, 'и', b, 'равна', sum_kvadrata)
