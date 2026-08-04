@@ -1,0 +1,9 @@
+# Cube
+
+dlina_rebra = int(input())
+
+V_cuba = dlina_rebra * dlina_rebra * dlina_rebra
+S_poverhnosty_cuba = 6 * dlina_rebra * dlina_rebra
+
+print('Объем =', V_cuba)
+print('Площадь полной поверхности =', S_poverhnosty_cuba)
