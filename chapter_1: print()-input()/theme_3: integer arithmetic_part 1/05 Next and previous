@@ -1,0 +1,9 @@
+# Next and previous
+
+a = int(input())
+
+next = a + 1
+previus = a - 1
+
+print('Следующее за числом', a, 'число:', next)
+print('Для числа', a, 'предыдущее число:', previus)
