@@ -1,0 +1,14 @@
+# King's move
+
+x_1 = int(input())
+y_1 = int(input())
+x_2 = int(input())
+y_2 = int(input())
+
+n = x_1 - x_2
+m = y_1 - y_2
+
+if (-1 <= n <= 1) and (-1 <= m <= 1):
+    print('YES')
+else:
+    print('NO')
