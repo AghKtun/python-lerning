@@ -1,0 +1,8 @@
+# Recalculation of time interval
+
+min = int(input())
+
+hours = min // 60
+min_ost = min % 60
+
+print(min, 'мин - это', hours, 'час', min_ost, 'минут.')
