@@ -1,0 +1,10 @@
+# Purchase cost
+
+price_monitor = int(input())
+price_sistem_bloc = int(input())
+price_claviatura = int(input())
+price_mouse = int(input())
+
+stoimosty = (price_monitor + price_sistem_bloc + price_claviatura + price_mouse) * 3
+
+print(stoimosty)
