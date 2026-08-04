@@ -1,0 +1,7 @@
+# Half
+
+n = int(input())
+
+polovina = n // 2 + n % 2
+
+print(polovina)
