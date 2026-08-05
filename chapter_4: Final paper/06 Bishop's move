@@ -1,0 +1,16 @@
+# Bishop's move
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+x = int(str(a) + str(b))
+y = int(str(c) + str(d))
+
+diff = abs(x - y)
+
+if (11 <= diff <= 77 and diff % 11 == 0) or (9 <= diff <= 63 and diff % 9 == 0):
+    print('YES')
+else:
+    print('NO')
