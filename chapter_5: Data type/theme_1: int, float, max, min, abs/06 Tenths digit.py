@@ -1,4 +1,4 @@
-# 0.(digit).py
+# Tenths digit
 
 x = float(input())
 
